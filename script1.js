@@ -3,8 +3,11 @@ function validar(){
     enombre=document.getElementById(Nombre)
     
 }
-function eliminar(){
-    
 
-}
+    
 //validar correo: Debe tener solo un @ y terminar en .cl
+function validarCorreo(){
+    ecorreo=document.getElementById(correo)
+    if (ecorreo = '@')
+        print('hola')
+}
