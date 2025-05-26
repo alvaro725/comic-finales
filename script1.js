@@ -8,6 +8,4 @@ function validar(){
 //validar correo: Debe tener solo un @ y terminar en .cl
 function validarCorreo(){
     ecorreo=document.getElementById(correo)
-    if (ecorreo = '@')
-        print('hola')
 }
