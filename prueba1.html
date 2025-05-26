@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+    
+</head>
+<body>
+
+    <form id="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" >
+        <span class="error" id="errorNombre"></span>
+        <br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email">
+        <span class="error" id="errorEmail"></span>
+        <br>
+
+        
+        <button type="button" onclick="validar()" id="btn">Enviar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>email</th>
+                <th>accion</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla">
+
+        </tbody>
+    </table>
+    
+
+</body>
+</html>
